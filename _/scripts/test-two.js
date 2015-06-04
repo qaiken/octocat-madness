@@ -1,3 +1,3 @@
-module.exports = function(wow) {
-  console.log(wow);
+module.exports = function(test) {
+  console.log(test);
 };
