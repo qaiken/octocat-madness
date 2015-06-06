@@ -26,5 +26,6 @@
     ]
   },
   "browserify-shim": {
+    "jQuery": "global:jQuery"
   }
 }
