@@ -1,3 +1,3 @@
-# simple-gulp-boilerplate
+# Octocat Madness
 
-Just a simplified version of https://github.com/40Digits/gulp-starter
+https://janpaepke.github.io/ScrollMagic/
