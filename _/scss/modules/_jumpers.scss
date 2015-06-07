@@ -1,0 +1,17 @@
+//=================================
+// JUMPERS
+//=================================
+
+.jumper {
+  position: fixed;
+  transition-property: transform;
+  font-size: 50px;
+}
+
+.jumper-left {
+  left: -50px;
+}
+
+.jumper-right {
+  right: -50px;
+}
