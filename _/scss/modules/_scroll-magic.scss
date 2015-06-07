@@ -2,11 +2,9 @@
 // SCROLL MAGIC
 //=================================
 
-.spacer {
-  min-height: 500px;
-}
-
-#trigger1 {
-  min-height: 1px;
-  background: black;
+[class*='trigger'] {
+  // Debugging:
+  // width: 100%;
+  // border-bottom: 1px solid black;
+  position: absolute;
 }
