@@ -3,7 +3,7 @@
 //=================================
 
 html {
-  min-height: 500%;
+  height: 500%;
 }
 
 svg {
@@ -15,8 +15,14 @@ svg {
 }
 
 path {
-  fill: #33629c;
+  fill: orange;
   fill-opacity: 0;
-  stroke: #33629c;
+  stroke: orange;
   stroke-width: 2px;
+  stroke-opacity: 0;
+}
+
+#outline {
+  fill: #000;
+  stroke: #000;
 }
