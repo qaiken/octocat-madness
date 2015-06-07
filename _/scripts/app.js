@@ -110,13 +110,18 @@ var ScrollApp = (function() {
     });
   }
 
-  function init() {
+  function init(num) {
+    $jumpers = generateJumpers(num);
+    numJumpers = num;
+
     generateTriggers();
 
     initOcto();
 
     initJumpers();
   }
+
+  var $jumpers, numJumpers;
 
   var timingFunctions = ['ease','ease-in','ease-out','ease-in-out','linear'];
   var $outline = $("path#outline");
@@ -128,8 +133,6 @@ var ScrollApp = (function() {
   var $win = $(window);
   var $body = $('body');
   var controller = new ScrollMagic.Controller();
-  var $jumpers = generateJumpers(40);
-  var numJumpers = $jumpers.length;
 
   return {
     init: init
@@ -137,4 +140,4 @@ var ScrollApp = (function() {
 
 }());
 
-ScrollApp.init();
+ScrollApp.init(50);
