@@ -1,3 +1,3 @@
-# Octocat Madness
+# OctoCat Madness
 
 https://janpaepke.github.io/ScrollMagic/
